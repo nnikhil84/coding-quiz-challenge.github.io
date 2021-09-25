@@ -23,31 +23,31 @@
     </header>
 
     <main id="main-content">
-        <div>
-            <p id="">
+        <div class="grid-container">
+            <p class="introduction">
                 Coding Quiz Challenge
+                <br /> 
+                Try to answer the following code-related questions within the time limit.
+                <br />
+                Keep in mind that incorrect answers will penalize your score/time by ten seconds!
             </p>
-            <p id="">Try to answer the following code-related questions within the time limit.
-                 <br />
-                 Keep in mind that incorrect answers will penalize your score/time by ten seconds!
-            </p>
-            <p id="">
+            <p class="score">
                 Score: <span id="">---</span>
             </p>
-            
-            <label for="initials">Enter Initials</label>
-            <input type="text" id="" name="initials" maxlength="3" />
 
-            <button class="btn1" id="">Begin Quiz</button>
-            <button class="btn1" id="">Option 1</button>
-            <button class="btn1" id="">Option 2</button>
-            <button class="btn1" id="">Option 3</button>
-            <button class="btn1" id="">Option 4</button>
-            <button class="btn1" id="">Submit Score</button>
+            <p class="enter-initials"></p>
+            <textarea class="initials-text"></textarea>
+
+            <button class="btn1 begin" id="">Begin Quiz</button>
+            <button class="btn1 opt1" id="">Option 1</button>
+            <button class="btn1 opt2" id="">Option 2</button>
+            <button class="btn1 opt3" id="">Option 3</button>
+            <button class="btn1 opt4" id="">Option 4</button>
+            <button class="btn1 submit" id="">Submit Score</button>
         </div>
 
-        <div id="">
-            <p id="">Answer Correct/ Incorrect</p>
+        <div class="response-grid">
+            <p class="response">Answer: <span>Correct/ Incorrect</span></p>
         </div>
     </main>
 <script src="./assets/js/quiz.js"></script> 

@@ -12,7 +12,7 @@ Build a coding quiz which displays a question and several options for answer. Se
 https://github.com/nnikhil84/coding-quiz-challenge.github.io 
 
 ## Deployed Website
-https://nnikhil84.github.io/generate.passwords.github.io/
+https://nnikhil84.github.io/coding-quiz-challenge.github.io/
 
 ## Task Achieved
 * Created a pulic remote repository on Git Hub 

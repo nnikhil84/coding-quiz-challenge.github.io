@@ -13,43 +13,43 @@
         <nav>
             <ul>
                 <li>
-                    <button class="btn-high-score" id="">View High Score</button>
+                    <button class="btn-high-score" id="btn-high-score">View High Score</button>
                 </li>
                 <li>
-                    <p>Time: <span id="">---</span></p>
+                    <p>Time: <span id="timeRemaining">xxx</span></p>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main id="main-content">
-        <div class="grid-container">
-            <p class="introduction">
+    <main class="main-content" id="mainContent">
+        <div class="grid-container" id="gridContainer">
+            <p class="introduction" id="areaIntroduction">
                 Coding Quiz Challenge
-                <br /> 
+                <br />
                 Try to answer the following code-related questions within the time limit.
                 <br />
                 Keep in mind that incorrect answers will penalize your score/time by ten seconds!
             </p>
-            <p class="score">
-                Score: <span id="">---</span>
+
+            <p class="score" id="score">
             </p>
 
-            <p class="enter-initials"></p>
-            <textarea class="initials-text"></textarea>
+            <p class="enter-initials" id="enterInitials"></p>
+            <textarea class="initials-text" id="initialsText"></textarea>
 
-            <button class="btn1 begin" id="">Begin Quiz</button>
-            <button class="btn1 opt1" id="">Option 1</button>
-            <button class="btn1 opt2" id="">Option 2</button>
-            <button class="btn1 opt3" id="">Option 3</button>
-            <button class="btn1 opt4" id="">Option 4</button>
-            <button class="btn1 submit" id="">Submit Score</button>
+            <button class="btn1 begin" id="begin">Begin Quiz</button>
+            <button class="btn1 opt1" id="opt1"></button>
+            <button class="btn1 opt2" id="opt2"></button>
+            <button class="btn1 opt3" id="opt3"></button>
+            <button class="btn1 opt4" id="opt4"></button>
+            <button class="btn1 submit" id="submit"></button>
         </div>
 
-        <div class="response-grid">
-            <p class="response">Answer: <span>Correct/ Incorrect</span></p>
+        <div class="response-grid" id="responseGrid">
+            <p class="response" id="response"></p>
         </div>
     </main>
-<script src="./assets/js/quiz.js"></script> 
+<script src="./assets/js/quiz.js"></script>
 </body>
 </html>

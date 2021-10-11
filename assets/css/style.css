@@ -55,7 +55,7 @@ header nav ul {
     color: #000;
 }
 
-#main-content {
+.main-content {
     margin: 25%;
     display: flex;
     flex-wrap: wrap;
@@ -73,11 +73,10 @@ header nav ul {
 
 .introduction {
    text-align: center;
-   align-self: baseline;
-   grid-column: 2 / span 2;
+   grid-column: 1 / span 5;
    grid-row: 1 / span 5;
    place-self: center;
-   font-size: 15px; 
+   font-size: 25px;
 }
 
 .score {
